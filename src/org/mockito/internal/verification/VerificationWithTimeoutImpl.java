@@ -4,7 +4,6 @@
  */
 package org.mockito.internal.verification;
 
-import org.mockito.exceptions.base.MockitoAssertionError;
 import org.mockito.internal.verification.api.VerificationData;
 import org.mockito.verification.VerificationMode;
 
@@ -22,12 +21,12 @@ public class VerificationWithTimeoutImpl {
 
     public void verify(VerificationData data) {
         int soFar = 0;
-        MockitoAssertionError error = null;
+        AssertionError error = null;
         while (soFar <= timeout) {
             try {
                 delegate.verify(data);
                 return;
-            } catch (MockitoAssertionError e) {
+            } catch (AssertionError e) {
                 error = e;
                 soFar += treshhold;
                 sleep(treshhold);
