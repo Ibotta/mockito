@@ -5,13 +5,6 @@
 
 package org.mockito.internal.invocation;
 
-import static org.mockitoutil.ExtraMatchers.*;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -21,6 +14,13 @@ import org.mockito.invocation.Invocation;
 import org.mockito.invocation.Location;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+import static org.mockitoutil.ExtraMatchers.*;
 
 
 public class InvocationsFinderTest extends TestBase {

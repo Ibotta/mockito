@@ -15,15 +15,28 @@
  */
 package org.mockito.cglib.core;
 
-import java.beans.*;
-import java.lang.reflect.*;
+import org.mockito.asm.Attribute;
+
+import java.beans.BeanInfo;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Member;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Type;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
-import java.util.*;
-
-import org.mockito.asm.Attribute;
-import org.mockito.asm.Type;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @version $Id: ReflectUtils.java,v 1.29 2006/02/28 00:30:51 herbyderby Exp $

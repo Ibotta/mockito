@@ -5,9 +5,6 @@
 
 package org.mockitousage.stacktrace;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,6 +14,9 @@ import org.mockito.exceptions.verification.VerificationInOrderFailure;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 //This is required to make sure stack trace is well filtered when runner is ON
 @RunWith(MockitoJUnitRunner.class)

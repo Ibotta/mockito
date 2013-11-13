@@ -29,10 +29,10 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.List;
-
 import org.mockito.asm.Type;
 import org.mockito.asm.tree.AbstractInsnNode;
+
+import java.util.List;
 
 /**
  * A semantic bytecode interpreter. More precisely, this interpreter only

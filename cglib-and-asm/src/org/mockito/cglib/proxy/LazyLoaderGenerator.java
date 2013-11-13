@@ -15,11 +15,13 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.util.*;
-
 import org.mockito.asm.Label;
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 class LazyLoaderGenerator implements CallbackGenerator {
     public static final LazyLoaderGenerator INSTANCE = new LazyLoaderGenerator();

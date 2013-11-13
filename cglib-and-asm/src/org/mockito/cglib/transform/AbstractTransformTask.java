@@ -15,14 +15,23 @@
  */
 package org.mockito.cglib.transform;
 
-import java.io.*;
-import java.net.MalformedURLException;
-import java.util.*;
-import java.util.zip.*;
-
 import org.apache.tools.ant.*;
-import org.mockito.asm.*;
-import org.mockito.cglib.core.*;
+
+import java.io.BufferedInputStream;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.util.zip.CRC32;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
 
 abstract public class AbstractTransformTask extends AbstractProcessTask {
     private static final int ZIP_MAGIC = 0x504B0304;

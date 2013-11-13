@@ -33,9 +33,9 @@ import org.mockito.asm.Label;
 import org.mockito.asm.MethodVisitor;
 import org.mockito.asm.Opcodes;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 /**

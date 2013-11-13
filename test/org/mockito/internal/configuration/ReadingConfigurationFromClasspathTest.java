@@ -4,17 +4,18 @@
  */
 package org.mockito.internal.configuration;
 
-import java.io.IOException;
-import java.io.StringReader;
-import java.util.Arrays;
-import java.util.Collections;
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import java.io.IOException;
+import java.io.StringReader;
+import java.util.Arrays;
+import java.util.Collections;
+
+import static org.mockito.Mockito.*;
 
 public class ReadingConfigurationFromClasspathTest extends TestBase {
 

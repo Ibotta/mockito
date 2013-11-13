@@ -15,9 +15,9 @@
  */
 package org.mockito.cglib.core;
 
-import java.lang.reflect.*;
-
-import org.mockito.asm.Type;
+import java.lang.reflect.Member;
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Type;
 
 public class VisibilityPredicate implements Predicate {
     private boolean protectedOk;

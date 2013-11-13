@@ -18,7 +18,8 @@ package org.mockito.cglib.core;
 import org.mockito.asm.ClassAdapter;
 import org.mockito.asm.ClassReader;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 // TODO: optimize (ClassReader buffers entire class before accept)
 public class ClassNameReader {

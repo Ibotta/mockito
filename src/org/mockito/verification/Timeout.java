@@ -5,7 +5,6 @@
 package org.mockito.verification;
 
 import org.mockito.exceptions.Reporter;
-import org.mockito.exceptions.misusing.FriendlyReminderException;
 import org.mockito.internal.verification.VerificationModeFactory;
 import org.mockito.internal.verification.VerificationWithTimeoutImpl;
 import org.mockito.internal.verification.api.VerificationData;

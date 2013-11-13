@@ -5,7 +5,6 @@
 package org.mockito;
 
 import org.hamcrest.Matcher;
-import org.mockito.internal.matchers.*;
 import org.mockito.internal.matchers.apachecommons.ReflectionEquals;
 import org.mockito.internal.progress.HandyReturnValues;
 import org.mockito.internal.progress.MockingProgress;

@@ -4,13 +4,13 @@
  */
 package org.mockito.internal.invocation;
 
-import java.util.Arrays;
-
 import org.junit.Test;
 import org.mockito.internal.util.ObjectBox;
 import org.mockito.internal.verification.InOrderContextImpl;
 import org.mockito.invocation.Invocation;
 import org.mockitoutil.TestBase;
+
+import java.util.Arrays;
 
 public class InvocationMarkerTest extends TestBase {
 

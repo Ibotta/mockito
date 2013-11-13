@@ -37,9 +37,9 @@ import org.mockito.asm.MethodVisitor;
 import org.mockito.asm.Opcodes;
 import org.mockito.asm.Type;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * A node that represents a method.

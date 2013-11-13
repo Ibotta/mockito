@@ -29,10 +29,10 @@
  */
 package org.mockito.asm.tree;
 
-import java.util.Map;
-
 import org.mockito.asm.Label;
 import org.mockito.asm.MethodVisitor;
+
+import java.util.Map;
 
 /**
  * An {@link AbstractInsnNode} that encapsulates a {@link Label}.

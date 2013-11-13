@@ -5,10 +5,6 @@
 
 package org.mockito.internal.verification.checkers;
 
-import static java.util.Arrays.*;
-
-import java.util.LinkedList;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.exceptions.Reporter;
@@ -22,6 +18,10 @@ import org.mockito.invocation.DescribedInvocation;
 import org.mockito.invocation.Invocation;
 import org.mockito.invocation.Location;
 import org.mockitoutil.TestBase;
+
+import java.util.LinkedList;
+
+import static java.util.Arrays.asList;
 
 public class MissingInvocationInOrderCheckerTest extends TestBase {
 

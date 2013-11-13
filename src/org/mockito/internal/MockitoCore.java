@@ -27,7 +27,6 @@ import org.mockito.internal.verification.api.VerificationDataInOrder;
 import org.mockito.internal.verification.api.VerificationDataInOrderImpl;
 import org.mockito.invocation.Invocation;
 import org.mockito.mock.MockCreationSettings;
-import org.mockito.stubbing.*;
 import org.mockito.verification.VerificationMode;
 
 import java.util.Arrays;

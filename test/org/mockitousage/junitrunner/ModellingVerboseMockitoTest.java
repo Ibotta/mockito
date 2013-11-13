@@ -4,8 +4,6 @@
  */
 package org.mockitousage.junitrunner;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -14,6 +12,8 @@ import org.mockito.Mock;
 import org.mockito.runners.VerboseMockitoJUnitRunner;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
 
 //@RunWith(ConsoleSpammingMockitoJUnitRunner.class)
 @RunWith(VerboseMockitoJUnitRunner.class)

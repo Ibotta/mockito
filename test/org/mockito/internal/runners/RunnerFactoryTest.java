@@ -4,8 +4,6 @@
  */
 package org.mockito.internal.runners;
 
-import static org.hamcrest.CoreMatchers.*;
-
 import org.junit.Test;
 import org.junit.runners.model.InitializationError;
 import org.mockito.exceptions.base.MockitoException;
@@ -13,6 +11,8 @@ import org.mockito.internal.runners.util.RunnerProvider;
 import org.mockitoutil.TestBase;
 
 import java.lang.reflect.InvocationTargetException;
+
+import static org.hamcrest.CoreMatchers.*;
 
 public class RunnerFactoryTest extends TestBase {
 

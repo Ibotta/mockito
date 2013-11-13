@@ -4,14 +4,14 @@
  */
 package org.mockitousage.annotation;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.MockitoAnnotations;
 import org.mockito.Spy;
 import org.mockitoutil.TestBase;
+
+import java.util.LinkedList;
+import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class SpyAnnotationInitializedInBaseClassTest extends TestBase {

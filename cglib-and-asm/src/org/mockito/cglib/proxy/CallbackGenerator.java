@@ -17,8 +17,6 @@ package org.mockito.cglib.proxy;
 
 import java.util.List;
 
-import org.mockito.cglib.core.*;
-
 interface CallbackGenerator
 {
     void generate(ClassEmitter ce, Context context, List methods) throws Exception;

@@ -5,10 +5,10 @@
 
 package org.mockito.internal.matchers;
 
-import java.math.BigDecimal;
-
 import org.junit.Test;
 import org.mockitoutil.TestBase;
+
+import java.math.BigDecimal;
 
 public class ComparableMatchersTest extends TestBase {
 

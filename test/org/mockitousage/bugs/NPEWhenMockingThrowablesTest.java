@@ -5,12 +5,12 @@
 
 package org.mockitousage.bugs;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
 
 public class NPEWhenMockingThrowablesTest extends TestBase {
 

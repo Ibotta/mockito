@@ -29,11 +29,11 @@
  */
 package org.mockito.asm.util;
 
+import org.mockito.asm.Attribute;
+
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.mockito.asm.Attribute;
 
 /**
  * An abstract visitor.

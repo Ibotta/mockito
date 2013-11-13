@@ -15,13 +15,9 @@
  */
 package org.mockito.cglib.transform.impl;
 
-import java.lang.reflect.Constructor;
-
-import org.mockito.asm.Attribute;
-import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
-import org.mockito.cglib.transform.*;
+
+import java.lang.reflect.Constructor;
 
 public class UndeclaredThrowableTransformer extends ClassEmitterTransformer {
     private Type wrapper;

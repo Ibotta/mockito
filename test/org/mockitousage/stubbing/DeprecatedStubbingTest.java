@@ -5,15 +5,15 @@
 
 package org.mockitousage.stubbing;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.exceptions.verification.NoInteractionsWanted;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 @SuppressWarnings("deprecation")
 public class DeprecatedStubbingTest extends TestBase {

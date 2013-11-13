@@ -7,15 +7,10 @@ package org.mockitousage.bugs;
 
 import org.junit.Test;
 import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.exceptions.base.MockitoException;
 import org.mockito.exceptions.misusing.FriendlyReminderException;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
 
-import java.util.List;
-
-import static org.mockito.Matchers.anyObject;
 import static org.mockito.Mockito.*;
 
 //see issue 235

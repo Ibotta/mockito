@@ -15,13 +15,16 @@
  */
 package org.mockito.cglib.beans;
 
-import java.beans.*;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
-import org.mockito.cglib.core.*;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * A <code>Map</code>-based view of a JavaBean.  The default set of keys is the

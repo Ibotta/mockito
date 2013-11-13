@@ -5,11 +5,11 @@
 
 package org.mockitousage.bugs;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class ActualInvocationHasNullArgumentNPEBugTest extends TestBase {
     

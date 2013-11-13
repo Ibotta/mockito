@@ -5,12 +5,6 @@
 
 package org.mockitousage.annotation;
 
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Captor;
@@ -20,6 +14,12 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.exceptions.base.MockitoException;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
 @SuppressWarnings("unchecked")
 public class CaptorAnnotationTest extends TestBase {

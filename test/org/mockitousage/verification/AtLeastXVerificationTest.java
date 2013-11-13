@@ -6,13 +6,14 @@
 package org.mockitousage.verification;
 
 import org.junit.Test;
-import static org.mockito.Matchers.anyString;
 import org.mockito.Mock;
-import static org.mockito.Mockito.*;
 import org.mockito.exceptions.base.MockitoAssertionError;
 import org.mockitoutil.TestBase;
 
 import java.util.List;
+
+import static org.mockito.Matchers.anyString;
+import static org.mockito.Mockito.*;
 
 @SuppressWarnings("unchecked")
 public class AtLeastXVerificationTest extends TestBase {

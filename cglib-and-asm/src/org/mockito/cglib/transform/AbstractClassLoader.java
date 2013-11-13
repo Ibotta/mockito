@@ -18,7 +18,6 @@ package org.mockito.cglib.transform;
 import org.mockito.asm.Attribute;
 import org.mockito.asm.ClassReader;
 import org.mockito.asm.ClassWriter;
-import org.mockito.asm.util.*;
 import org.mockito.cglib.core.ClassGenerator;
 import org.mockito.cglib.core.CodeGenerationException;
 import org.mockito.cglib.core.DebuggingClassWriter;

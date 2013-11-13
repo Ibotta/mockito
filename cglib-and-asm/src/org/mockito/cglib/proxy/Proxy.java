@@ -15,11 +15,11 @@
  */
 package org.mockito.cglib.proxy;
 
+import org.mockito.cglib.core.CodeGenerationException;
+
 import java.io.Serializable;
 import java.lang.reflect.Method;
 import java.util.List;
-
-import org.mockito.cglib.core.CodeGenerationException;
 
 /**
  * This class is meant to be used as replacement for

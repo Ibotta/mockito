@@ -5,14 +5,14 @@
 
 package org.mockito.internal.invocation;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import org.mockito.internal.util.collections.ListUtil;
 import org.mockito.internal.util.collections.ListUtil.Filter;
 import org.mockito.internal.verification.api.InOrderContext;
 import org.mockito.invocation.Invocation;
 import org.mockito.invocation.Location;
+
+import java.util.LinkedList;
+import java.util.List;
 
 public class InvocationsFinder {
 

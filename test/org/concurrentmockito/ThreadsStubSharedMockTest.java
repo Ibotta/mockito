@@ -5,12 +5,12 @@
 
 package org.concurrentmockito;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Ignore;
 import org.junit.Test;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
 
 public class ThreadsStubSharedMockTest extends TestBase {
 

@@ -29,10 +29,10 @@
  */
 package org.mockito.asm.tree;
 
+import org.mockito.asm.MethodVisitor;
+
 import java.util.List;
 import java.util.Map;
-
-import org.mockito.asm.MethodVisitor;
 
 /**
  * A node that represents a bytecode instruction. <i>An instruction can appear

@@ -29,11 +29,11 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.mockito.asm.tree.JumpInsnNode;
 import org.mockito.asm.tree.LabelNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A method subroutine (corresponds to a JSR instruction).

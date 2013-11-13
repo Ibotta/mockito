@@ -15,12 +15,8 @@
  */
 package org.mockito.cglib.util;
 
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-
 import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
 
 class ParallelSorterEmitter extends ClassEmitter {
     private static final Type PARALLEL_SORTER =

@@ -15,14 +15,13 @@
  */
 package org.mockito.cglib.beans;
 
-import java.beans.PropertyDescriptor;
-import java.lang.reflect.*;
-
 import org.mockito.asm.ClassVisitor;
-import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
 
-import java.util.*;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author Chris Nokleberg

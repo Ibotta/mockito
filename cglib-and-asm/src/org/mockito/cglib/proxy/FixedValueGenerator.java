@@ -15,10 +15,10 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.util.*;
-
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.util.Iterator;
+import java.util.List;
 
 class FixedValueGenerator implements CallbackGenerator {
     public static final FixedValueGenerator INSTANCE = new FixedValueGenerator();

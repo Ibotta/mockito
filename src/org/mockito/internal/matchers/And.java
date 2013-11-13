@@ -5,13 +5,13 @@
 
 package org.mockito.internal.matchers;
 
-import java.io.Serializable;
-import java.util.Iterator;
-import java.util.List;
-
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.mockito.ArgumentMatcher;
+
+import java.io.Serializable;
+import java.util.Iterator;
+import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class And extends ArgumentMatcher implements Serializable {

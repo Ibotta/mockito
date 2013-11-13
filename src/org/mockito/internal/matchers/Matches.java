@@ -5,10 +5,10 @@
 
 package org.mockito.internal.matchers;
 
-import java.io.Serializable;
-
 import org.hamcrest.Description;
 import org.mockito.ArgumentMatcher;
+
+import java.io.Serializable;
 
 
 public class Matches extends ArgumentMatcher<Object> implements Serializable {

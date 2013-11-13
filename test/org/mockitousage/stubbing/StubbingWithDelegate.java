@@ -18,7 +18,6 @@ import static org.junit.Assert.fail;
 import static org.mockito.AdditionalAnswers.delegatesTo;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.withSettings;
 
 @SuppressWarnings("unchecked")
 public class StubbingWithDelegate {

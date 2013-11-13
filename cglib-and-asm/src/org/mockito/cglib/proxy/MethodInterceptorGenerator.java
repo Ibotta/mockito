@@ -15,12 +15,13 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.lang.reflect.Method;
-import java.util.*;
-
 import org.mockito.asm.Label;
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 class MethodInterceptorGenerator
 implements CallbackGenerator

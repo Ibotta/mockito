@@ -5,11 +5,6 @@
 
 package org.mockitousage.matchers;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
-import java.util.List;
-
 import org.fest.assertions.Assertions;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
@@ -18,6 +13,11 @@ import org.mockito.exceptions.base.MockitoException;
 import org.mockito.exceptions.verification.WantedButNotInvoked;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import java.util.List;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class CapturingArgumentsTest extends TestBase {
 

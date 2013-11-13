@@ -4,15 +4,15 @@
  */
 package org.mockito.internal.creation.jmock;
 
-import static org.hamcrest.CoreMatchers.*;
-
-import java.lang.reflect.Method;
-
 import org.junit.Test;
 import org.mockito.cglib.proxy.Factory;
 import org.mockito.cglib.proxy.MethodInterceptor;
 import org.mockito.cglib.proxy.MethodProxy;
 import org.mockitoutil.TestBase;
+
+import java.lang.reflect.Method;
+
+import static org.hamcrest.CoreMatchers.*;
 
 @SuppressWarnings("unchecked")
 public class ClassImposterizerTest extends TestBase {

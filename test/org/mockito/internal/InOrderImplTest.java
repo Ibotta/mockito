@@ -4,16 +4,16 @@
  */
 package org.mockito.internal;
 
-import static java.util.Arrays.*;
-
-import java.util.List;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.internal.invocation.InvocationBuilder;
 import org.mockito.invocation.Invocation;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import java.util.List;
+
+import static java.util.Arrays.asList;
 
 @SuppressWarnings("unchecked")
 public class InOrderImplTest extends TestBase {

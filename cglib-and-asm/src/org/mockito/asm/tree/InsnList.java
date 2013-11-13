@@ -29,10 +29,10 @@
  */
 package org.mockito.asm.tree;
 
+import org.mockito.asm.MethodVisitor;
+
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
-
-import org.mockito.asm.MethodVisitor;
 
 /**
  * A doubly linked list of {@link AbstractInsnNode} objects. <i>This

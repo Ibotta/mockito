@@ -6,11 +6,11 @@
 //Class comes from Apache Commons Lang, added some tiny changes
 package org.mockito.internal.matchers.apachecommons;
 
-import java.math.BigDecimal;
-import java.util.Arrays;
-
 import org.junit.Test;
 import org.mockitoutil.TestBase;
+
+import java.math.BigDecimal;
+import java.util.Arrays;
 
 /**
  * @author <a href="mailto:sdowney@panix.com">Steve Downey</a>

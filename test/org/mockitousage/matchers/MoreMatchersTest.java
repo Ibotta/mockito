@@ -10,7 +10,11 @@ import org.mockito.Mock;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
 
 import static org.mockito.Matchers.*;
 import static org.mockito.Mockito.verify;

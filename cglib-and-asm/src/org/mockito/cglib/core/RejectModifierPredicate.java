@@ -15,7 +15,7 @@
  */
 package org.mockito.cglib.core;
 
-import java.lang.reflect.*;
+import java.lang.reflect.Member;
 
 public class RejectModifierPredicate implements Predicate {
     private int rejectMask;

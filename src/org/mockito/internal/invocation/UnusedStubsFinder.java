@@ -10,7 +10,8 @@ import org.mockito.internal.stubbing.StubbedInvocationMatcher;
 import org.mockito.internal.util.MockUtil;
 import org.mockito.invocation.Invocation;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
 
 public class UnusedStubsFinder {
 

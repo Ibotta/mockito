@@ -4,9 +4,9 @@
  */
 package org.mockito.internal.exceptions.util;
 
-import java.util.List;
-
 import org.mockito.internal.exceptions.VerificationAwareInvocation;
+
+import java.util.List;
 
 public class ScenarioPrinter {
 

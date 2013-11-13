@@ -4,8 +4,6 @@
  */
 package org.mockito.internal.listeners;
 
-import org.mockito.MockSettings;
-
 import java.util.List;
 
 @SuppressWarnings("unchecked")

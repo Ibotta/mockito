@@ -5,14 +5,14 @@
 
 package org.mockito.internal.verification.checkers;
 
-import java.util.List;
-
 import org.mockito.exceptions.Reporter;
 import org.mockito.internal.invocation.InvocationMatcher;
 import org.mockito.internal.invocation.InvocationsFinder;
 import org.mockito.internal.reporting.SmartPrinter;
 import org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool;
 import org.mockito.invocation.Invocation;
+
+import java.util.List;
 
 public class MissingInvocationChecker {
     

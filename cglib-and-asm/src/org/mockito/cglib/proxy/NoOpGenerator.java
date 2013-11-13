@@ -18,8 +18,6 @@ package org.mockito.cglib.proxy;
 import java.util.Iterator;
 import java.util.List;
 
-import org.mockito.cglib.core.*;
-
 class NoOpGenerator
 implements CallbackGenerator
 {

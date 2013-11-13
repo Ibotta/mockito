@@ -5,22 +5,21 @@
 
 package org.mockito.internal.invocation;
 
-import static java.util.Arrays.*;
+import org.fest.assertions.Assertions;
+import org.hamcrest.Matcher;
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.invocation.Invocation;
+import org.mockitousage.IMethods;
+import org.mockitoutil.TestBase;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.fest.assertions.Assertions;
-import org.hamcrest.Matcher;
-import org.junit.Before;
-import org.junit.Test;
-import org.mockito.Mock;
-import org.mockito.internal.matchers.*;
-import org.mockito.invocation.Invocation;
-import org.mockitousage.IMethods;
-import org.mockitoutil.TestBase;
+import static java.util.Arrays.asList;
 
 @SuppressWarnings("unchecked")
 public class InvocationMatcherTest extends TestBase {

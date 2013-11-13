@@ -6,6 +6,7 @@
 package org.mockitoutil;
 
 import junit.framework.Assert;
+
 import org.fest.assertions.Assertions;
 import org.fest.assertions.Condition;
 import org.hamcrest.Matcher;
@@ -23,7 +24,9 @@ import org.mockito.internal.invocation.realmethod.RealMethod;
 import org.mockito.internal.util.MockUtil;
 import org.mockito.invocation.Invocation;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.Collection;
 
 import static org.mockito.Mockito.mock;

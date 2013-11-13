@@ -4,15 +4,15 @@
  */
 package org.mockito.internal.verification.argumentmatching;
 
-import java.util.Arrays;
-import java.util.List;
-
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.junit.Test;
 import org.mockito.internal.matchers.Equals;
 import org.mockitoutil.TestBase;
+
+import java.util.Arrays;
+import java.util.List;
 
 @SuppressWarnings({"unchecked","serial"})
 public class ArgumentMatchingToolTest extends TestBase {

@@ -15,8 +15,6 @@
  */
 package org.mockito.cglib.core;
 
-import java.util.Set;
-
 /**
  * The default policy used by {@link AbstractClassGenerator}.
  * Generates names such as

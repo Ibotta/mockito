@@ -15,11 +15,9 @@
  */
 package org.mockito.cglib.transform.impl;
 
-import java.lang.reflect.Method;
-
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
-import org.mockito.cglib.transform.*;
+
+import java.lang.reflect.Method;
 
 /**
  * @author Juozas Baliuka, Chris Nokleberg

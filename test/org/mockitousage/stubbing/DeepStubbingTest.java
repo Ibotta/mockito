@@ -10,11 +10,12 @@ import org.mockito.InOrder;
 import org.mockito.exceptions.verification.TooManyActualInvocations;
 import org.mockitoutil.TestBase;
 
-import javax.net.SocketFactory;
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Locale;
+
+import javax.net.SocketFactory;
 
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyInt;

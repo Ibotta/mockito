@@ -16,11 +16,11 @@
 
 package org.mockito.cglib.core;
 
-import java.lang.reflect.Method;
-
 import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.Label;
 import org.mockito.asm.Type;
+
+import java.lang.reflect.Method;
 
 /**
  * Generates classes to handle multi-valued keys, for use in things such as Maps and Sets.

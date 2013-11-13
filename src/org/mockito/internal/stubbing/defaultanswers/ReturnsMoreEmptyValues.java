@@ -5,12 +5,12 @@
 
 package org.mockito.internal.stubbing.defaultanswers;
 
-import java.io.Serializable;
-import java.lang.reflect.Array;
-
 import org.mockito.Mockito;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
+
+import java.io.Serializable;
+import java.lang.reflect.Array;
 
 /**
  * It's likely this implementation will be used by default by every Mockito 2.0 mock.

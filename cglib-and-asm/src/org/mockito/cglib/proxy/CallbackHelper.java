@@ -15,10 +15,13 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.lang.reflect.Method;
-import java.util.*;
-
 import org.mockito.cglib.core.ReflectUtils;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @version $Id: CallbackHelper.java,v 1.2 2004/06/24 21:15:20 herbyderby Exp $

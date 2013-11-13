@@ -15,11 +15,9 @@
  */
 package org.mockito.cglib.util;
 
-import java.lang.reflect.*;
-import java.util.Comparator;
-
 import org.mockito.asm.ClassVisitor;
-import org.mockito.cglib.core.*;
+
+import java.util.Comparator;
 
 /**
  * For the efficient sorting of multiple arrays in parallel.

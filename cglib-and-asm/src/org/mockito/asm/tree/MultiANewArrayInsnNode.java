@@ -29,10 +29,10 @@
  */
 package org.mockito.asm.tree;
 
-import java.util.Map;
-
 import org.mockito.asm.MethodVisitor;
 import org.mockito.asm.Opcodes;
+
+import java.util.Map;
 
 /**
  * A node that represents a MULTIANEWARRAY instruction.

@@ -15,7 +15,12 @@
  */
 package org.mockito.cglib.beans;
 
-import java.util.*;
+import java.util.AbstractSet;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 public /* need it for class loading  */ class FixedKeySet extends AbstractSet {
     private Set set;

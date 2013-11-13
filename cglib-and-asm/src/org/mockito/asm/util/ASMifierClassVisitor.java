@@ -29,15 +29,15 @@
  */
 package org.mockito.asm.util;
 
-import java.io.FileInputStream;
-import java.io.PrintWriter;
-
 import org.mockito.asm.AnnotationVisitor;
 import org.mockito.asm.ClassReader;
 import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.FieldVisitor;
 import org.mockito.asm.MethodVisitor;
 import org.mockito.asm.Opcodes;
+
+import java.io.FileInputStream;
+import java.io.PrintWriter;
 
 /**
  * A {@link ClassVisitor} that prints the ASM code that generates the classes it

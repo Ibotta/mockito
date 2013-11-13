@@ -5,13 +5,13 @@
 
 package org.mockitousage.basicapi;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.exceptions.base.MockitoException;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.hamcrest.CoreMatchers.*;
+import static org.mockito.Mockito.*;
 
 public class MockingMultipleInterfacesTest extends TestBase {
 

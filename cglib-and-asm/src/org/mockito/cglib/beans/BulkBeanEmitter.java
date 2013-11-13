@@ -15,14 +15,11 @@
  */
 package org.mockito.cglib.beans;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
     
 class BulkBeanEmitter extends ClassEmitter {
     private static final Signature GET_PROPERTY_VALUES =

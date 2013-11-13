@@ -15,13 +15,14 @@
  */
 package org.mockito.cglib.beans;
 
-import java.beans.*;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.Label;
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.beans.PropertyDescriptor;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 class BeanMapEmitter extends ClassEmitter {
     private static final Type BEAN_MAP =

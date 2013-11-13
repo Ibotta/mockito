@@ -5,8 +5,6 @@
 
 package org.mockitousage.verification;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.InOrder;
 import org.mockito.Mock;
@@ -14,6 +12,8 @@ import org.mockito.exceptions.misusing.UnfinishedVerificationException;
 import org.mockito.exceptions.verification.VerificationInOrderFailure;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
 
 public class FindingRedundantInvocationsInOrderTest extends TestBase {
 

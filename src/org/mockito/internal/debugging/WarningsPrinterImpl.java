@@ -4,12 +4,12 @@
  */
 package org.mockito.internal.debugging;
 
-import java.util.List;
-
 import org.mockito.internal.invocation.InvocationMatcher;
 import org.mockito.internal.util.MockitoLogger;
 import org.mockito.internal.util.SimpleMockitoLogger;
 import org.mockito.invocation.Invocation;
+
+import java.util.List;
 
 public class WarningsPrinterImpl {
 

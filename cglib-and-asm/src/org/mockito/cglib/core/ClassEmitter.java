@@ -15,10 +15,8 @@
  */
 package org.mockito.cglib.core;
 
-import java.io.*;
-import java.util.*;
-
-import org.mockito.asm.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author Juozas Baliuka, Chris Nokleberg

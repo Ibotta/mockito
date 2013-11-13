@@ -11,7 +11,7 @@ import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
 
-import java.awt.*;
+import java.awt.List;
 
 import static org.junit.Assert.assertNotNull;
 

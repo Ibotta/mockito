@@ -17,7 +17,6 @@ package org.mockito.cglib.transform;
 
 import org.mockito.asm.ClassAdapter;
 import org.mockito.asm.ClassVisitor;
-import org.mockito.cglib.core.CodeGenerationException;
 
 abstract public class AbstractClassTransformer extends ClassAdapter implements ClassTransformer {
     protected AbstractClassTransformer() {

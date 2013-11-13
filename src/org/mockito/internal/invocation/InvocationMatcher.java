@@ -5,12 +5,6 @@
 
 package org.mockito.internal.invocation;
 
-import java.io.Serializable;
-import java.lang.reflect.Method;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import org.hamcrest.Matcher;
 import org.mockito.internal.matchers.CapturesArguments;
 import org.mockito.internal.matchers.MatcherDecorator;
@@ -19,6 +13,12 @@ import org.mockito.internal.reporting.PrintSettings;
 import org.mockito.invocation.DescribedInvocation;
 import org.mockito.invocation.Invocation;
 import org.mockito.invocation.Location;
+
+import java.io.Serializable;
+import java.lang.reflect.Method;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class InvocationMatcher implements DescribedInvocation, CapturesArgumensFromInvocation, Serializable {

@@ -4,26 +4,26 @@
  */
 package org.mockito.internal.creation;
 
-import static org.hamcrest.core.IsInstanceOf.*;
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
-import java.io.ByteArrayOutputStream;
-import java.io.ObjectOutputStream;
-import java.lang.reflect.Method;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import org.mockito.cglib.proxy.MethodProxy;
 import org.mockito.internal.InternalMockHandler;
-import org.mockito.internal.invocation.InvocationImpl;
 import org.mockito.internal.creation.cglib.CGLIBHacker;
 import org.mockito.internal.invocation.InvocationBuilder;
+import org.mockito.internal.invocation.InvocationImpl;
 import org.mockito.internal.invocation.MockitoMethod;
 import org.mockito.internal.invocation.SerializableMethod;
 import org.mockitousage.MethodsImpl;
 import org.mockitoutil.TestBase;
+
+import java.io.ByteArrayOutputStream;
+import java.io.ObjectOutputStream;
+import java.lang.reflect.Method;
+
+import static org.hamcrest.core.IsInstanceOf.*;
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class MethodInterceptorFilterTest extends TestBase {
 

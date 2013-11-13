@@ -29,11 +29,11 @@
  */
 package org.mockito.asm.tree;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.mockito.asm.AnnotationVisitor;
 import org.mockito.asm.Attribute;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * An abstract class, field or method node.

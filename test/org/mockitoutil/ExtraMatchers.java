@@ -5,7 +5,8 @@
 
 package org.mockitoutil;
 
-import static org.junit.Assert.*;
+import org.hamcrest.CoreMatchers;
+import org.hamcrest.Matcher;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -13,8 +14,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.Matcher;
+import static org.junit.Assert.*;
 
 @SuppressWarnings("unchecked")
 public class ExtraMatchers {

@@ -15,12 +15,13 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Modifier;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
-import org.mockito.cglib.core.*;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 
 

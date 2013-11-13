@@ -5,12 +5,12 @@
 
 package org.mockitousage.bugs.varargs;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 //see issue 62
 public class VarargsNotPlayingWithAnyObjectTest extends TestBase {

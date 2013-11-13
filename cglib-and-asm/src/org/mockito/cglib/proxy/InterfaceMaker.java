@@ -15,12 +15,13 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.lang.reflect.*;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
-import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.lang.reflect.Method;
+import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 /**
  * Generates new interfaces at runtime.

@@ -29,9 +29,9 @@
  */
 package org.mockito.asm.tree;
 
-import java.util.Map;
-
 import org.mockito.asm.MethodVisitor;
+
+import java.util.Map;
 
 /**
  * A node that represents an instruction with a single int operand.

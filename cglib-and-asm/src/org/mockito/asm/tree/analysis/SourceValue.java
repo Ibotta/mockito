@@ -29,9 +29,9 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.Set;
-
 import org.mockito.asm.tree.AbstractInsnNode;
+
+import java.util.Set;
 
 /**
  * A {@link Value} that is represented by its type in a two types type system.

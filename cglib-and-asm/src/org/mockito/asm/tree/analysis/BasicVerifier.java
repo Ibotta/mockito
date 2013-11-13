@@ -29,12 +29,12 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.List;
-
 import org.mockito.asm.Type;
 import org.mockito.asm.tree.AbstractInsnNode;
 import org.mockito.asm.tree.FieldInsnNode;
 import org.mockito.asm.tree.MethodInsnNode;
+
+import java.util.List;
 
 /**
  * An extended {@link BasicInterpreter} that checks that bytecode instructions

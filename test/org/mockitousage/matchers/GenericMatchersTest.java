@@ -5,15 +5,15 @@
 
 package org.mockitousage.matchers;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockitoutil.TestBase;
 
 import java.util.Date;
 import java.util.List;
 
-import org.junit.Test;
-import org.mockito.Mock;
-import org.mockitoutil.TestBase;
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class GenericMatchersTest extends TestBase {
     

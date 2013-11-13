@@ -16,7 +16,8 @@
 package org.mockito.cglib.core;
 
 import java.lang.reflect.Method;
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 public class DuplicatesPredicate implements Predicate {
     private Set unique = new HashSet();

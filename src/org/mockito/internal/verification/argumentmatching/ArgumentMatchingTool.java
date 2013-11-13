@@ -4,12 +4,12 @@
  */
 package org.mockito.internal.verification.argumentmatching;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import org.hamcrest.Matcher;
 import org.hamcrest.StringDescription;
 import org.mockito.internal.matchers.ContainsExtraTypeInformation;
+
+import java.util.LinkedList;
+import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class ArgumentMatchingTool {

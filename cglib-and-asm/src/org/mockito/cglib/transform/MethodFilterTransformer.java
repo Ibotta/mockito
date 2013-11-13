@@ -15,8 +15,6 @@
  */
 package org.mockito.cglib.transform;
 
-import org.mockito.asm.*;
-
 public class MethodFilterTransformer extends AbstractClassTransformer {
     private MethodFilter filter;
     private ClassTransformer pass;

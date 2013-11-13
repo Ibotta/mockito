@@ -15,7 +15,6 @@
  */
 package org.mockito.cglib.core;
 
-import org.mockito.asm.Attribute;
 import org.mockito.asm.Type;
 
 abstract public class MethodInfo {

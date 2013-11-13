@@ -5,12 +5,12 @@
 
 package org.mockitousage.bugs.varargs;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class VarargsAndAnyObjectPicksUpExtraInvocationsTest extends TestBase {
     public interface TableBuilder {

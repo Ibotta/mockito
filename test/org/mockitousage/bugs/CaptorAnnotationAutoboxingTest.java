@@ -5,13 +5,13 @@
 
 package org.mockitousage.bugs;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Captor;
 import org.mockito.Mock;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
 
 //see issue 188
 public class CaptorAnnotationAutoboxingTest extends TestBase {

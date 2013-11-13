@@ -5,13 +5,13 @@
 
 package org.mockitousage.matchers;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.exceptions.verification.junit.ArgumentsAreDifferent;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 @SuppressWarnings("all")
 public class ReflectionMatchersTest extends TestBase {

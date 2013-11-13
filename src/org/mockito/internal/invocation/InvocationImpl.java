@@ -10,7 +10,6 @@ import org.mockito.internal.debugging.LocationImpl;
 import org.mockito.internal.exceptions.VerificationAwareInvocation;
 import org.mockito.internal.invocation.realmethod.RealMethod;
 import org.mockito.internal.reporting.PrintSettings;
-import org.mockito.invocation.*;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;

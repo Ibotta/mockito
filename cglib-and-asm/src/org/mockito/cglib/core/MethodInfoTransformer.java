@@ -15,7 +15,8 @@
  */
 package org.mockito.cglib.core;
 
-import java.lang.reflect.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 
 public class MethodInfoTransformer implements Transformer
 {

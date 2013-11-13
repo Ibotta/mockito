@@ -5,7 +5,6 @@
 
 package org.mockito.internal.progress;
 
-import org.mockito.MockSettings;
 import org.mockito.exceptions.Reporter;
 import org.mockito.internal.configuration.GlobalConfiguration;
 import org.mockito.internal.debugging.Localized;

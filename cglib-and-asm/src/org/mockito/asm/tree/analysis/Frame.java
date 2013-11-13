@@ -29,9 +29,6 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.mockito.asm.Opcodes;
 import org.mockito.asm.Type;
 import org.mockito.asm.tree.AbstractInsnNode;
@@ -39,6 +36,9 @@ import org.mockito.asm.tree.IincInsnNode;
 import org.mockito.asm.tree.MethodInsnNode;
 import org.mockito.asm.tree.MultiANewArrayInsnNode;
 import org.mockito.asm.tree.VarInsnNode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A symbolic execution stack frame. A stack frame contains a set of local

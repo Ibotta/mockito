@@ -5,7 +5,6 @@
 package org.mockito;
 
 import org.mockito.listeners.InvocationListener;
-import org.mockito.mock.MockCreationSettings;
 import org.mockito.stubbing.Answer;
 
 import java.io.Serializable;

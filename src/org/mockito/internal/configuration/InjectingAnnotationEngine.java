@@ -4,7 +4,6 @@
  */
 package org.mockito.internal.configuration;
 
-import org.mockito.*;
 import org.mockito.configuration.AnnotationEngine;
 import org.mockito.internal.configuration.injection.scanner.InjectMocksScanner;
 import org.mockito.internal.configuration.injection.scanner.MockScanner;

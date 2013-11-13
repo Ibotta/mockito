@@ -4,8 +4,6 @@
  */
 package org.mockito.runners;
 
-import java.lang.reflect.InvocationTargetException;
-
 import org.junit.runner.Description;
 import org.junit.runner.Runner;
 import org.junit.runner.manipulation.Filter;
@@ -18,6 +16,8 @@ import org.mockito.internal.debugging.WarningsCollector;
 import org.mockito.internal.runners.RunnerFactory;
 import org.mockito.internal.runners.RunnerImpl;
 import org.mockito.internal.util.junit.JUnitFailureHacker;
+
+import java.lang.reflect.InvocationTargetException;
 
 /**
  * Experimental implementation that suppose to improve tdd/testing experience. 

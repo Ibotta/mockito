@@ -4,13 +4,13 @@
  */
 package org.mockito.configuration;
 
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
-
 import org.mockito.Mockito;
 import org.mockito.internal.configuration.InjectingAnnotationEngine;
 import org.mockito.stubbing.Answer;
 import org.mockitousage.configuration.SmartMock;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
 
 public class MockitoConfiguration extends DefaultMockitoConfiguration implements IMockitoConfiguration {
 

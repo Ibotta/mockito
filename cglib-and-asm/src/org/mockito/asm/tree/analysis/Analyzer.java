@@ -29,11 +29,6 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.mockito.asm.Opcodes;
 import org.mockito.asm.Type;
 import org.mockito.asm.tree.AbstractInsnNode;
@@ -46,6 +41,11 @@ import org.mockito.asm.tree.MethodNode;
 import org.mockito.asm.tree.TableSwitchInsnNode;
 import org.mockito.asm.tree.TryCatchBlockNode;
 import org.mockito.asm.tree.VarInsnNode;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * A semantic bytecode analyzer. <i>This class does not fully check that JSR and

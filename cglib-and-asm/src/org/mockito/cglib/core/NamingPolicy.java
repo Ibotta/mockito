@@ -15,8 +15,6 @@
  */
 package org.mockito.cglib.core;
 
-import java.util.Set;
-
 /**
  * Customize the generated class name for {@link AbstractClassGenerator}-based utilities.
  */

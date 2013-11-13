@@ -4,8 +4,6 @@
  */
 package org.mockitousage.annotation;
 
-import java.util.List;
-
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Captor;
@@ -15,6 +13,8 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.Spy;
 import org.mockito.exceptions.base.MockitoException;
 import org.mockitoutil.TestBase;
+
+import java.util.List;
 
 @SuppressWarnings({"unchecked", "unused"})
 public class WrongSetOfAnnotationsTest extends TestBase {

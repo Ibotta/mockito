@@ -5,11 +5,9 @@
 
 package org.mockitousage.bugs;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
 import org.mockitoutil.TestBase;
 
 import static org.mockito.Mockito.*;

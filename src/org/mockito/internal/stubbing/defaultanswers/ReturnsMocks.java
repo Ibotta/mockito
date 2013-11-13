@@ -4,12 +4,12 @@
  */
 package org.mockito.internal.stubbing.defaultanswers;
 
-import java.io.Serializable;
-
 import org.mockito.internal.MockitoCore;
 import org.mockito.internal.creation.MockSettingsImpl;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
+
+import java.io.Serializable;
 
 public class ReturnsMocks implements Answer<Object>, Serializable {
     

@@ -12,7 +12,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import static java.lang.reflect.Array.*;
+import static java.lang.reflect.Array.newInstance;
 
 /**
  * hashCode and equals safe hash based set.

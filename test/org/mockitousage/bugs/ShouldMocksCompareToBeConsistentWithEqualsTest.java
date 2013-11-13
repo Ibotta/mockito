@@ -6,11 +6,9 @@
 package org.mockitousage.bugs;
 
 import org.junit.Test;
-import org.mockito.Mock;
 import org.mockitoutil.TestBase;
 
 import java.util.Date;
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 

@@ -4,14 +4,14 @@
  */
 package org.mockito.internal.verification;
 
-import static java.util.Arrays.*;
-
 import org.junit.Test;
 import org.mockito.exceptions.verification.VerificationInOrderFailure;
 import org.mockito.internal.invocation.InvocationBuilder;
 import org.mockito.internal.verification.api.VerificationDataInOrderImpl;
 import org.mockito.invocation.Invocation;
 import org.mockitoutil.TestBase;
+
+import static java.util.Arrays.asList;
 
 public class NoMoreInteractionsTest extends TestBase {
 

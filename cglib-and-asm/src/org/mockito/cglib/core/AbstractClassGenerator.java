@@ -15,14 +15,15 @@
  */
 package org.mockito.cglib.core;
 
-import java.io.*;
-import java.util.*;
-import java.lang.ref.*;
-
 import org.mockito.asm.ClassReader;
-import org.mockito.asm.ClassVisitor;
-import org.mockito.asm.ClassWriter;
-import org.mockito.asm.Type;
+
+import java.lang.ref.Reference;
+import java.lang.ref.WeakReference;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.WeakHashMap;
 
 /**
  * Abstract class for all code-generating CGLIB utilities.

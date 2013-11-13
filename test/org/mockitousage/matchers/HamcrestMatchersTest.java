@@ -5,9 +5,6 @@
 
 package org.mockitousage.matchers;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.junit.Test;
@@ -15,6 +12,9 @@ import org.mockito.Mock;
 import org.mockito.exceptions.verification.junit.ArgumentsAreDifferent;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class HamcrestMatchersTest extends TestBase {
     

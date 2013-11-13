@@ -29,9 +29,6 @@
  */
 package org.mockito.asm.util;
 
-import java.io.FileInputStream;
-import java.io.PrintWriter;
-
 import org.mockito.asm.AnnotationVisitor;
 import org.mockito.asm.Attribute;
 import org.mockito.asm.ClassReader;
@@ -40,6 +37,9 @@ import org.mockito.asm.FieldVisitor;
 import org.mockito.asm.MethodVisitor;
 import org.mockito.asm.Opcodes;
 import org.mockito.asm.signature.SignatureReader;
+
+import java.io.FileInputStream;
+import java.io.PrintWriter;
 
 /**
  * A {@link ClassVisitor} that prints a disassembled view of the classes it

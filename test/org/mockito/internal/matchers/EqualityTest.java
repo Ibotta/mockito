@@ -4,8 +4,9 @@
  */
 package org.mockito.internal.matchers;
 
-import org.mockitoutil.TestBase;
 import org.junit.Test;
+import org.mockitoutil.TestBase;
+
 import static org.mockito.internal.matchers.Equality.areEqual;
 
 public class EqualityTest extends TestBase {

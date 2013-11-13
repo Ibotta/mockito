@@ -7,7 +7,6 @@ package org.mockito.internal.creation.jmock;
 import org.mockito.cglib.core.CodeGenerationException;
 import org.mockito.cglib.core.NamingPolicy;
 import org.mockito.cglib.core.Predicate;
-import org.mockito.cglib.proxy.*;
 import org.mockito.exceptions.base.MockitoException;
 import org.mockito.internal.configuration.GlobalConfiguration;
 import org.mockito.internal.creation.cglib.MockitoNamingPolicy;

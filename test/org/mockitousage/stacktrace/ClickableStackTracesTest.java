@@ -5,13 +5,13 @@
 
 package org.mockitousage.stacktrace;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.exceptions.verification.junit.ArgumentsAreDifferent;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
 
 public class ClickableStackTracesTest extends TestBase {
     

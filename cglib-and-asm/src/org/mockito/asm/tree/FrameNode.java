@@ -29,13 +29,13 @@
  */
 package org.mockito.asm.tree;
 
+import org.mockito.asm.MethodVisitor;
+import org.mockito.asm.Opcodes;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-
-import org.mockito.asm.MethodVisitor;
-import org.mockito.asm.Opcodes;
 
 /**
  * A node that represents a stack map frame. These nodes are pseudo instruction

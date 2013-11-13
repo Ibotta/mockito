@@ -15,8 +15,6 @@
  */
 package org.mockito.cglib.beans;
 
-import org.mockito.cglib.core.CodeGenerationException;
-
 public class BulkBeanException extends RuntimeException
 {
     private int index;

@@ -15,8 +15,6 @@
  */
 package org.mockito.cglib.transform;
 
-import org.mockito.asm.*;
-
 public class ClassTransformerChain extends AbstractClassTransformer {
     private ClassTransformer[] chain;
     

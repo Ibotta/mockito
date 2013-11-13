@@ -29,10 +29,10 @@
  */
 package org.mockito.asm.tree;
 
+import org.mockito.asm.AnnotationVisitor;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import org.mockito.asm.AnnotationVisitor;
 
 /**
  * A node that represents an annotationn.

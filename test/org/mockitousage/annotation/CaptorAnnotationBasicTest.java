@@ -5,17 +5,17 @@
 
 package org.mockitousage.annotation;
 
-import static org.mockito.Mockito.*;
-
-import java.util.LinkedList;
-import java.util.List;
-
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Captor;
 import org.mockito.Mock;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import static org.mockito.Mockito.*;
 
 @SuppressWarnings("unchecked")
 public class CaptorAnnotationBasicTest extends TestBase {

@@ -15,13 +15,18 @@
  */
 package org.mockito.cglib.transform;
 
-import java.io.File;
-import java.util.*;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.DirectoryScanner;
 import org.apache.tools.ant.Project;
 import org.apache.tools.ant.Task;
 import org.apache.tools.ant.types.FileSet;
+
+import java.io.File;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Vector;
 
 abstract public class AbstractProcessTask extends Task {
     private Vector filesets = new Vector();

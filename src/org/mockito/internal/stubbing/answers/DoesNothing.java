@@ -4,10 +4,10 @@
  */
 package org.mockito.internal.stubbing.answers;
 
-import java.io.Serializable;
-
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
+
+import java.io.Serializable;
 
 public class DoesNothing implements Answer<Object>, Serializable {
     

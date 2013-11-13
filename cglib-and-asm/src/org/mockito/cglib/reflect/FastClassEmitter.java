@@ -15,13 +15,17 @@
  */
 package org.mockito.cglib.reflect;
 
-import java.lang.reflect.*;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.Label;
-import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.lang.reflect.Method;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
     
 class FastClassEmitter extends ClassEmitter {
     private static final Signature CSTRUCT_CLASS =

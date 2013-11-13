@@ -4,16 +4,16 @@
  */
 package org.mockito.internal.stubbing.defaultanswers;
 
-import java.io.Serializable;
-import java.lang.reflect.Modifier;
-
 import org.mockito.Mockito;
 import org.mockito.exceptions.Reporter;
 import org.mockito.internal.debugging.LocationImpl;
-import org.mockito.invocation.Location;
 import org.mockito.internal.util.ObjectMethodsGuru;
 import org.mockito.invocation.InvocationOnMock;
+import org.mockito.invocation.Location;
 import org.mockito.stubbing.Answer;
+
+import java.io.Serializable;
+import java.lang.reflect.Modifier;
 
 /**
  * Optional Answer that can be used with

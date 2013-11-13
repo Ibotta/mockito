@@ -7,8 +7,6 @@ package org.mockito.exceptions;
 
 import org.mockito.exceptions.base.MockitoAssertionError;
 import org.mockito.exceptions.base.MockitoException;
-import org.mockito.exceptions.misusing.*;
-import org.mockito.exceptions.verification.*;
 import org.mockito.internal.debugging.LocationImpl;
 import org.mockito.internal.exceptions.VerificationAwareInvocation;
 import org.mockito.internal.exceptions.util.ScenarioPrinter;

@@ -29,10 +29,6 @@
  */
 package org.mockito.asm.util;
 
-import java.io.FileInputStream;
-import java.io.PrintWriter;
-import java.util.List;
-
 import org.mockito.asm.AnnotationVisitor;
 import org.mockito.asm.Attribute;
 import org.mockito.asm.ClassAdapter;
@@ -48,6 +44,10 @@ import org.mockito.asm.tree.TryCatchBlockNode;
 import org.mockito.asm.tree.analysis.Analyzer;
 import org.mockito.asm.tree.analysis.Frame;
 import org.mockito.asm.tree.analysis.SimpleVerifier;
+
+import java.io.FileInputStream;
+import java.io.PrintWriter;
+import java.util.List;
 
 /**
  * A {@link ClassAdapter} that checks that its methods are properly used. More

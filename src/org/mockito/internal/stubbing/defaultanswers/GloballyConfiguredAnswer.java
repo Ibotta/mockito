@@ -4,12 +4,12 @@
  */
 package org.mockito.internal.stubbing.defaultanswers;
 
-import java.io.Serializable;
-
 import org.mockito.configuration.IMockitoConfiguration;
 import org.mockito.internal.configuration.GlobalConfiguration;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
+
+import java.io.Serializable;
 
 /**
  * Globally configured Answer.

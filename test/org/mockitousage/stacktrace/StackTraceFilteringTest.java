@@ -5,9 +5,6 @@
 
 package org.mockitousage.stacktrace;
 
-import static org.mockito.Mockito.*;
-import static org.mockitoutil.ExtraMatchers.*;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,6 +16,9 @@ import org.mockito.exceptions.verification.VerificationInOrderFailure;
 import org.mockito.exceptions.verification.WantedButNotInvoked;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
+import static org.mockitoutil.ExtraMatchers.*;
 
 public class StackTraceFilteringTest extends TestBase {
     

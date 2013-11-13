@@ -4,13 +4,13 @@
  */
 package org.mockitousage.stubbing;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class CallingRealMethodTest extends TestBase {
     

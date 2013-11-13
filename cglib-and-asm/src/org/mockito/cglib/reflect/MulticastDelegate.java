@@ -15,13 +15,12 @@
  */
 package org.mockito.cglib.reflect;
 
-import java.lang.reflect.*;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
-import org.mockito.asm.MethodVisitor;
-import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 abstract public class MulticastDelegate implements Cloneable {
     protected Object[] targets = {};

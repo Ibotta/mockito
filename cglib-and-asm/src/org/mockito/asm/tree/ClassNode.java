@@ -34,9 +34,9 @@ import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.FieldVisitor;
 import org.mockito.asm.MethodVisitor;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * A node that represents a class.

@@ -4,13 +4,13 @@
  */
 package org.mockitousage.internal.invocation.realmethod;
 
-import static org.mockitoutil.ExtraMatchers.*;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod;
 import org.mockito.internal.invocation.realmethod.RealMethod;
 import org.mockitoutil.TestBase;
+
+import static org.mockitoutil.ExtraMatchers.*;
 
 public class FilteredCGLIBProxyRealMethodTest extends TestBase {
 

@@ -4,13 +4,13 @@
  */
 package org.mockito.internal;
 
-import java.util.List;
-
 import org.mockito.internal.stubbing.InvocationContainer;
 import org.mockito.invocation.MockHandler;
 import org.mockito.mock.MockCreationSettings;
 import org.mockito.stubbing.Answer;
 import org.mockito.stubbing.VoidMethodStubbable;
+
+import java.util.List;
 
 @SuppressWarnings("unchecked")
 public interface InternalMockHandler<T> extends MockHandler {

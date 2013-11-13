@@ -15,10 +15,6 @@
  */
 package org.mockito.cglib.transform.impl;
 
-import org.mockito.asm.Attribute;
-import org.mockito.cglib.core.*;
-import org.mockito.cglib.transform.*;
-
 /**
  * A {@link GeneratorStrategy} suitable for use with {@link org.mockito.cglib.Enhancer} which
  * causes all undeclared exceptions thrown from within a proxied method to be wrapped

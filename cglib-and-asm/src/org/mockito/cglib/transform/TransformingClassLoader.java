@@ -15,9 +15,6 @@
  */
 package org.mockito.cglib.transform;
 
-import java.util.*;
-
-import org.mockito.asm.*;
 import org.mockito.cglib.core.ClassGenerator;
 
 public class TransformingClassLoader extends AbstractClassLoader {

@@ -4,13 +4,13 @@
  */
 package org.mockito.internal.matchers;
 
-import java.io.Serializable;
-import java.util.LinkedList;
-import java.util.List;
-
 import org.hamcrest.Description;
 import org.mockito.ArgumentMatcher;
 import org.mockito.exceptions.Reporter;
+
+import java.io.Serializable;
+import java.util.LinkedList;
+import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class CapturingMatcher<T> extends ArgumentMatcher<T> implements CapturesArguments, Serializable {

@@ -9,7 +9,6 @@ import org.junit.Test;
 import org.mockito.exceptions.base.MockitoException;
 import org.mockito.exceptions.verification.TooLittleActualInvocations;
 import org.mockito.internal.invocation.InvocationBuilder;
-import org.mockito.internal.reporting.*;
 import org.mockitoutil.TestBase;
 
 public class ReporterTest extends TestBase {

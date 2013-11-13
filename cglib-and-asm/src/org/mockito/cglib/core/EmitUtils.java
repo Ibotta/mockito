@@ -15,12 +15,20 @@
  */
 package org.mockito.cglib.core;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.util.*;
-
 import org.mockito.asm.Label;
 import org.mockito.asm.Type;
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.BitSet;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class EmitUtils {
     private static final Signature CSTRUCT_NULL =

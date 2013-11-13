@@ -9,7 +9,11 @@ import org.mockito.internal.InternalMockHandler;
 import org.mockito.internal.util.MockUtil;
 import org.mockito.invocation.Invocation;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class AllInvocationsFinder {
     

@@ -5,8 +5,6 @@
 
 package org.mockito.internal.verification;
 
-import java.util.List;
-
 import org.mockito.exceptions.Reporter;
 import org.mockito.internal.invocation.InvocationsFinder;
 import org.mockito.internal.verification.api.VerificationData;
@@ -14,6 +12,8 @@ import org.mockito.internal.verification.api.VerificationDataInOrder;
 import org.mockito.internal.verification.api.VerificationInOrderMode;
 import org.mockito.invocation.Invocation;
 import org.mockito.verification.VerificationMode;
+
+import java.util.List;
 
 public class NoMoreInteractions implements VerificationMode, VerificationInOrderMode {
 

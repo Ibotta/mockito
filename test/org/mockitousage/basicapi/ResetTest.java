@@ -4,9 +4,6 @@
  */
 package org.mockitousage.basicapi;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.exceptions.misusing.MissingMethodInvocationException;
@@ -14,6 +11,9 @@ import org.mockito.exceptions.misusing.NotAMockException;
 import org.mockito.exceptions.misusing.UnfinishedVerificationException;
 import org.mockitousage.IMethods;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class ResetTest extends TestBase {
 

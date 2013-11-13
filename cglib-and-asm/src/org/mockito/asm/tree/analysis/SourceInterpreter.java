@@ -29,16 +29,16 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 import org.mockito.asm.Opcodes;
 import org.mockito.asm.Type;
 import org.mockito.asm.tree.AbstractInsnNode;
 import org.mockito.asm.tree.FieldInsnNode;
 import org.mockito.asm.tree.LdcInsnNode;
 import org.mockito.asm.tree.MethodInsnNode;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * An {@link Interpreter} for {@link SourceValue} values.

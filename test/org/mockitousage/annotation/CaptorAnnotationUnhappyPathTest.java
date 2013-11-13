@@ -5,14 +5,14 @@
 
 package org.mockitousage.annotation;
 
-import java.util.List;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Captor;
 import org.mockito.MockitoAnnotations;
 import org.mockito.exceptions.base.MockitoException;
 import org.mockitoutil.TestBase;
+
+import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class CaptorAnnotationUnhappyPathTest extends TestBase {

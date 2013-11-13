@@ -4,10 +4,10 @@
  */
 package org.mockito.internal.creation.jmock;
 
-import static java.lang.Thread.*;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import static java.lang.Thread.currentThread;
 
 /**
  * Thanks to jMock guys for this ClassLoader. 

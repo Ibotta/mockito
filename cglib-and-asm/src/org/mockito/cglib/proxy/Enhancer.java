@@ -15,14 +15,20 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.*;
-
 import org.mockito.asm.ClassVisitor;
 import org.mockito.asm.Label;
 import org.mockito.asm.Type;
-import org.mockito.cglib.core.*;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Generates dynamic subclasses to enable method interception. This

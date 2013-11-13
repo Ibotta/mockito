@@ -5,12 +5,11 @@
 
 package org.mockito.internal.progress;
 
-import java.io.Serializable;
-
-import org.mockito.MockSettings;
 import org.mockito.internal.listeners.MockingProgressListener;
 import org.mockito.invocation.Invocation;
 import org.mockito.verification.VerificationMode;
+
+import java.io.Serializable;
 
 @SuppressWarnings("unchecked")
 public class ThreadSafeMockingProgress implements MockingProgress, Serializable {

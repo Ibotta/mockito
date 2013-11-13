@@ -15,15 +15,15 @@
  */
 package org.mockito.cglib.proxy;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
 import org.mockito.cglib.core.AbstractClassGenerator;
 import org.mockito.cglib.core.CodeGenerationException;
 import org.mockito.cglib.core.GeneratorStrategy;
 import org.mockito.cglib.core.NamingPolicy;
 import org.mockito.cglib.core.Signature;
 import org.mockito.cglib.reflect.FastClass;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 
 /**

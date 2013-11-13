@@ -4,17 +4,16 @@
  */
 package org.mockito.verification;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.exceptions.base.MockitoAssertionError;
 import org.mockito.internal.verification.AtLeast;
-import org.mockito.internal.verification.AtMost;
 import org.mockito.internal.verification.Only;
 import org.mockito.internal.verification.Times;
 import org.mockito.internal.verification.VerificationDataImpl;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Mockito.*;
 
 @SuppressWarnings("unchecked")
 public class TimeoutTest extends TestBase {

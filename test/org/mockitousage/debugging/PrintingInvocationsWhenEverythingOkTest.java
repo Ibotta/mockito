@@ -4,12 +4,12 @@
  */
 package org.mockitousage.debugging;
 
-import static org.mockito.BDDMockito.*;
-
 import org.junit.After;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.BDDMockito.*;
 
 public class PrintingInvocationsWhenEverythingOkTest extends TestBase {
 

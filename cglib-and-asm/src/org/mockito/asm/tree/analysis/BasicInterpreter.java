@@ -29,8 +29,6 @@
  */
 package org.mockito.asm.tree.analysis;
 
-import java.util.List;
-
 import org.mockito.asm.Opcodes;
 import org.mockito.asm.Type;
 import org.mockito.asm.tree.AbstractInsnNode;
@@ -40,6 +38,8 @@ import org.mockito.asm.tree.LdcInsnNode;
 import org.mockito.asm.tree.MethodInsnNode;
 import org.mockito.asm.tree.MultiANewArrayInsnNode;
 import org.mockito.asm.tree.TypeInsnNode;
+
+import java.util.List;
 
 /**
  * An {@link Interpreter} for {@link BasicValue} values.

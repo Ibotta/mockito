@@ -15,8 +15,6 @@
  */
 package org.mockito.cglib.transform;
 
-import org.mockito.asm.*;
-
 public class ClassVisitorTee implements ClassVisitor {
     private ClassVisitor cv1, cv2;
     

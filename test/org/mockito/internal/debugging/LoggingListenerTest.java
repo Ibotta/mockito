@@ -4,14 +4,14 @@
  */
 package org.mockito.internal.debugging;
 
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.internal.invocation.InvocationBuilder;
 import org.mockito.internal.util.MockitoLogger;
 import org.mockitoutil.TestBase;
+
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.*;
 
 public class LoggingListenerTest extends TestBase {
 

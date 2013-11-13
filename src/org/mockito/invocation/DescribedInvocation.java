@@ -4,8 +4,8 @@
  */
 package org.mockito.invocation;
 
-import org.mockito.exceptions.PrintableInvocation;
 import org.mockito.Incubating;
+import org.mockito.exceptions.PrintableInvocation;
 
 /**
  * Provides information about the invocation, specifically a human readable description and the location.

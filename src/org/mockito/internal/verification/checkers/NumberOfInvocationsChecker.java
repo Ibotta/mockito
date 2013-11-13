@@ -5,15 +5,15 @@
 
 package org.mockito.internal.verification.checkers;
 
-import java.util.List;
-
 import org.mockito.exceptions.Reporter;
-import org.mockito.internal.invocation.InvocationMatcher;
 import org.mockito.internal.invocation.InvocationMarker;
+import org.mockito.internal.invocation.InvocationMatcher;
 import org.mockito.internal.invocation.InvocationsFinder;
 import org.mockito.internal.reporting.Discrepancy;
 import org.mockito.invocation.Invocation;
 import org.mockito.invocation.Location;
+
+import java.util.List;
 
 public class NumberOfInvocationsChecker {
     

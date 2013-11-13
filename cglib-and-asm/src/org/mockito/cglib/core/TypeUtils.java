@@ -15,9 +15,14 @@
  */
 package org.mockito.cglib.core;
 
-import java.util.*;
-
 import org.mockito.asm.Type;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 public class TypeUtils {
     private static final Map transforms = new HashMap();
